@@ -1,0 +1,22 @@
+# claude-code-conversation-colors
+
+> Customize text colors for your messages and Claude's responses in Claude Code terminal sessions. Visual color picker with RGB sliders. Works on macOS, Linux, and Windows.
+
+## What it does
+- Interactive color picker to set distinct colors for user messages and Claude's responses
+- RGB sliders and direct hex value entry
+- Toggle gray message background on or off
+- Settings persist across terminal restarts and new sessions
+- Survives Claude Code updates — no patching, no hacking internals
+- Reapply saved colors after updates with --reapply flag
+- Uninstall cleanly with --uninstall flag
+
+## Install
+brew tap ProducerGuy/claude-code-conversation-colors && brew install claude-colors
+
+Or via curl:
+curl -fsSL https://raw.githubusercontent.com/ProducerGuy/claude-code-conversation-colors/main/install.sh | bash
+
+## Links
+- [GitHub](https://github.com/ProducerGuy/claude-code-conversation-colors)
+- [Homebrew Tap](https://github.com/ProducerGuy/homebrew-claude-code-conversation-colors)
