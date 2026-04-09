@@ -82,7 +82,7 @@ This restores everything to the original Claude Code colors:
 
 ## Reapply colors after a Claude Code update
 
-If a Claude Code update resets your terminal colors, just run:
+Your colors are designed to survive Claude Code updates. If an update ever does reset them, just run:
 
 ```bash
 claude-colors --reapply
